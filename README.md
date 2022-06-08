@@ -1,1 +1,1 @@
-https://2020liliya.github.io/rsschool-cv/cvrsschool-cv-html
+https://2020liliya.github.io/rsschool-cv/
