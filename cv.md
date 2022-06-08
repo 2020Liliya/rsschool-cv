@@ -14,3 +14,26 @@ Some freelancing experience in landing page design and social media design.
 ## Languages
 * English level – A2
 * German level – A1
+
+## Code examples
+```
+
+month = int(input('Month: '))
+day = int(input('Day: '))
+if 12 >= month > 0 and 31 >= day > 0:
+    if month == 2 and day > 29:
+        print('Error!')
+    elif ((month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12)
+          and day <= 31) \
+            or ((month == 4 or month == 6 or month == 9 or month == 11)
+                and day <= 30) or (month == 2 and day <= 29):
+        date_1 = datetime.datetime(2020, month, day)
+        date_2 = datetime.datetime(2021, 1, 1)
+        new_year = date_2 - date_1
+        print('There are {} days until the new year 2021!'.format(new_year.days))
+    else:
+        print('Error!')
+else:
+    print('Error!')
+
+```
