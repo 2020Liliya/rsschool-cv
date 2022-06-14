@@ -1,10 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lily – CV</title>
+    <link rel="icon" href="assets/img/Ellipse 1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+
+            <section class="section-about-me" id="profile">
+                <img class="nav-img" src="assets/img/my_photo.png" alt="my photo">
+                <h2 class="h2-title">About me</h2>
+                <p class="about-me-description">I am a beginner front-end developer with experience as a UX/UI
+                    designer.<br>I love
+                    programming, reading books and cycling. Currently located in&nbspSiberia.</p>
+
+                <h2 class="h2-contacts">Contacts</h2>
+                <ul>
+                    <li class="icon-contacts"><a href="https://t.me/LilyaTrof">
+                            <img src="assets/img/telegram.svg" alt="my telegram"></a>
+                    </li>
+                    <li class="icon-contacts"><a href="https://discord.gg/8rzd4aZH65">
+                            <img src="assets/img/discord.svg" alt="my discord"></a>
+                    </li>
+                    <li class="icon-contacts"><a href="https://github.com/2020Liliya">
+                            <img src="assets/img/github.svg" alt="my github"></a>
+                    </li>
+                </ul>
+            </section>
+
+
+
+            <section class="section-i-am" id="i-am">
+                <h1 class="header-h1">LILY<br>TROFIMOVA</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item1"><a href="#skills" class="nav-link"><span class="h2-title">0.1</span>
+                                Skills</a></li>
+                        <li class="nav-item2"><a href="#code" class="nav-link"><span class="h2-title">0.2</span>
+                                Code</a>
+                        </li>
+                        <li class="nav-item1"><a href="#projects" class="nav-link"><span class="h2-title">0.3</span>
+                                Projects</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link"><span class="h2-title">0.4</span>
+                                Languages</a></li>
+                        <li class="nav-item2"><a href="#education " class="nav-link"><span class="h2-title">0.5</span>
+                                Education </a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+
+            <section class="section-skills" id="skills">
+                <h2 class="nav-list"><span class="h2-title">0.1 </span>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML5, CSS3</li>
+                    <li>GIT, Github</li>
+                    <li>Figma, Photoshop, Illustrator</li>
+                </ul>
+            </section>
+
+            <section class="section-code" id="code">
+                <h2 class="nav-list code"><span class="h2-title">0.2 </span>Code</h2>
+                <pre>
+<code>
+float average(int length, int array[])
+    {
+        // Calculate average
+        int sum = 0;
+        for (int i = 0; i < length; i++)
+        {
+            sum += array[i];
+        }
+        return sum / (float) length;
+    }
+</code>
+</pre>
+            </section>
+
+            <section class="section-projects" id="projects">
+                <h2 class="nav-list projects"><span class="h2-title">0.3 </span>Projects</h2>
+                <a href="https://2020liliya.github.io/rsschool-cv/cv">RSSchool #CV1</a>
+            </section>
+
+            <section class="section-languages" id="languages">
+                <h2 class="nav-list languages"><span class="h2-title">0.4 </span>Languages</h2>
+                <ul class="languages-list">
+                    <li>English A2</li>
+                    <li>Germany A1</li>
+                </ul>
+            </section>
+
+            <section class="section-education" id="education">
+                <h2 class="nav-list education"><span class="h2-title">0.5 </span>Education</h2>
+                <a class="link-education"
+                    href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/">Course: The Complete
+                    Web Developer in 2022: Zero to Mastery</a><br>
+                <a class="link-education" href="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home">Course
+                    CS50's Introduction to Computer Science</a><br>
+                <a class="link-education" href="https://ru.code-basics.com/languages/html">Course: HTML for
+                    beginners</a><br>
+                <a class="link-education" href="https://ru.code-basics.com/languages/css">Course: CSS for beginners</a>
+
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <ul>
+                <li class="icon-contacts"><a href="https://github.com/2020Liliya">
+                        <img src="assets/img/github.svg" alt="my github"></a>
+                </li>
+                <li class="year">
+                    2022
+                </li>
+                <li class="icon-contacts"><a href="https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="logo RS" width="80px"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
 </html>

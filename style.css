@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFE3EF;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    color: hsla(0, 0%, 0%, 0.86);
+}
+
+.header {
+    height: 100vh;
+}
+
+.h2-title {
+    font: 400 40px Montserrat, sans-serif;
+    margin: 10px 0px;
+}
+
+.about-me-description {
+    width: 370px;
+    font: 400 18px/27px Montserrat, sans-serif;
+    margin: 0;
+}
+
+.section-about-me {
+    display: inline-block;
+    width: 30%;
+}
+
+.h2-contacts {
+    font: 400 40px Montserrat, sans-serif;
+    margin: 50px 0px 10px 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-contacts {
+    display: inline;
+    list-style: none;
+    padding: 0 30px 0 0;
+    margin: 0;
+}
+
+.section-contacts {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 50%;
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-i-am {
+    width: 70%;
+}
+
+.header-h1 {
+    font: 800 140px/133px Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    color: #FFE3EF;
+    text-shadow:
+        -0 -1px 0 rgba(0, 0, 0, 0.86),
+        0 -1px 0 rgba(0, 0, 0, 0.86),
+        -0 1px 0 rgba(0, 0, 0, 0.86),
+        0 1px 0 rgba(0, 0, 0, 0.86),
+        -1px -0 0 rgba(0, 0, 0, 0.86),
+        1px -0 0 rgba(0, 0, 0, 0.86),
+        -1px 0 0 rgba(0, 0, 0, 0.86),
+        1px 0 0 rgba(0, 0, 0, 0.86),
+        -1px -1px 0 rgba(0, 0, 0, 0.86),
+        1px -1px 0 rgba(0, 0, 0, 0.86),
+        -1px 1px 0 rgba(0, 0, 0, 0.86),
+        1px 1px 0 rgba(0, 0, 0, 0.86),
+        -1px -1px 0 rgba(0, 0, 0, 0.86),
+        1px -1px 0 rgba(0, 0, 0, 0.86),
+        -1px 1px 0 rgba(0, 0, 0, 0.86),
+        1px 1px 0 rgba(0, 0, 0, 0.86);
+}
+
+
+
+.nav-list {
+    list-style: none;
+    font: 800 60px Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.nav {
+    margin-top: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item1 {
+    position: relative;
+    right: 200px;
+}
+
+.nav-item2 {
+    position: relative;
+    right: 120px;
+}
+
+.main .container .section-skills .nav-list {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 30%;
+}
+
+.skills-list {
+    position: relative;
+    left: 34%;
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.skills-list ::before {
+    color: #FF62A8;
+    content: "⊙";
+    padding-right: 10px;
+}
+
+.skills-list li {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.main .container .section-code .nav-list {
+    text-align: left;
+    padding-bottom: 25px;
+    margin-top: 100px;
+}
+
+pre {
+    font-size: 20px;
+    display: inline-block;
+    border: 2px dashed #FF62A8;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.main .container .section-projects .nav-list {
+    text-align: left;
+    position: relative;
+    left: 30%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.section-projects a {
+    font-size: 30px;
+    position: relative;
+    left: 35%;
+    text-decoration: underline;
+    color: #FF62A8;
+}
+
+.nav-link:hover {
+    color: #FF62A8;
+}
+
+.section-languages{
+    margin-top: 100px;
+    position: relative;
+}
+
+.languages-list {
+    position: relative;
+    left: 73%;
+    list-style-type: none;
+    padding-top: 20px;
+
+}
+
+.languages-list ::before {
+    color: #FF62A8;
+    content: "⊙";
+    padding-right: 10px;
+}
+
+.languages-list li {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.section-education .nav-list{
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.link-education {
+    font-size: 30px;
+    text-decoration: underline;
+    color: #FF62A8;
+    padding-top: 40px;
+    padding-left: 68px;
+}
+
+.year {
+    font: 800 30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.footer .container ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.footer .container ul{
+
+    margin-top: 100px;
+    text-align: center;
+}
